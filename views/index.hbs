@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{> header title="Onj"}}
-    {{{body}}}
 
-  </body>
-</html>
+    {{> header }}
+    <h2>Esto es el contenido handlebars de index</h2>
+    <iframe width="731" height="411" src="https://www.youtube.com/embed/I4xwCT1F5RA?autoplay=1&mute=1&enablejsapi=1"></iframe>
+    <h1>Mi nombre es {{page.autor.name}} {{page.autor.surname}}</h1>
+    {{> footer }}
+
+
